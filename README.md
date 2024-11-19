@@ -46,9 +46,9 @@ api_server/
 ### 2.5 Dockerfile로 이미지 생성 Docker hub에 업로드
 
 - **Dockerfile:**
-    - ****python 3.9-slim을 기반
-    - requirements.txt에 패키지들을 pip로 설치
-    - Uvicorn ASGI 서버로 FastAPI 애플리케이션 실행, 모든 IP에서 접근 가능(0.0.0.0), 8000번 포트 사용
+    - python 3.9-slim을 기반으로 합니다.
+    - requirements.txt에 패키지들을 pip로 설치하였습니다.
+    - Uvicorn ASGI 서버로 FastAPI 애플리케이션 실행, 모든 IP에서 접근 가능(0.0.0.0), 8000번 포트 사용합니다.
 - **Docker hub에 업로드**
     - https://hub.docker.com/repository/docker/kyunghwankim/stclab/general
 
