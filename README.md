@@ -7,7 +7,7 @@
 
 ## 1. 코드 구조
 
-```python
+```
 api_server/
 ├── requirements.txt         
 ├── Dockerfile               
@@ -17,7 +17,7 @@ api_server/
     └── schemas.py          
 ```
 
-## 2. 코드 구조 및 기능
+## 2. 코드 설명
 
 ### 2.1. 환경 설정 및 데이터베이스 연결
 
@@ -40,8 +40,8 @@ api_server/
 - **메트릭 설정**:
     - `REQUEST_COUNT`: 총 요청 수를 카운트하는 `Counter` 메트릭입니다.
     - `REQUEST_LATENCY`: 요청 지연 시간을 측정하는 `Summary` 메트릭입니다.
-- **미들웨어 설정**: `@app.middleware("http")`를 사용하여 모든 요청에 대해 메트릭을 수집하는 미들웨어를 설정합니다.
-- **메트릭 엔드포인트**: `/metrics` 엔드포인트를 통해 Prometheus가 메트릭을 스크랩할 수 있도록 합니다.
+- **미들웨어 설정**: `@app.middleware("http")`를 사용하여 모든 요청에 대해 요청 수를 수집하는 미들웨어를 설정합니다.
+- **메트릭 엔드포인트**: `/metrics` 엔드포인트를 통해 Prometheus가 메트릭을 수집할 수 있도록 합니다.
 
 ### 2.5 Dockerfile로 이미지 생성 Docker hub에 업로드
 
