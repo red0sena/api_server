@@ -1,4 +1,3 @@
-# api_server/app/schemas.py
 from pydantic import BaseModel
 
 class UserBase(BaseModel):

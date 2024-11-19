@@ -1,5 +1,3 @@
-# api_server/Dockerfile
-
 FROM python:3.9-slim
 
 # 작업 디렉토리 설정

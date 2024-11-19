@@ -3,7 +3,7 @@
 
 ## 0. 개요
 
- FastAPI와 SQLAlchemy를 사용하여 사용자 관리 RESTful API를 구현하였으며, Prometheus를 통해 애플리케이션의 메트릭을 수집하고 있습니다.
+ FastAPI와 SQLAlchemy를 사용하여 RESTful API를 구현하였으며, Prometheus를 통해 애플리케이션의 메트릭을 수집하고 있습니다.
 
 ## 1. 코드 구조
 

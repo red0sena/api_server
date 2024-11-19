@@ -1,5 +1,3 @@
-# api_server/app/main.py
-
 import os
 from prometheus_client import Summary, Counter, generate_latest, CONTENT_TYPE_LATEST
 from starlette.responses import Response
